@@ -1,0 +1,16 @@
+---
+config_dir: '~'
+
+http_user: www
+mysql_root_password: "ROOTMYSQLPASSWORD"
+http_host: "blog"
+http_conf: "080-Blog.conf"
+http_port: "88"
+
+laravel_host: "8laravel"
+laravel_conf: "088-Laravel.conf"
+laravel_port: "80"
+
+composer_install_path: '/usr/local/bin/composer'
+
+ansible_python_interpreter: /usr/bin/python3
